@@ -1,0 +1,45 @@
+"accent.styles"
+{
+	include "custom.styles"
+	include "colors.styles"
+	colors
+	{
+
+// _h = hover
+// _p = clicked
+// _d = disabled
+
+////////////////////////
+//======No Color======//
+		none="0 0 0 0"
+////////////////////////////
+//======Accent Colors======//
+		accent_menuitem_text=white
+		accent="88 82 242 255"
+		accent_h="88 82 242 175"
+		accent_p="88 82 242 255"
+		accent_d="88 82 242 255"
+////////////////////////////
+//======Alpha======//
+		accent_alpha_31="88 82 242 31"
+
+////////////////////////////
+		accent_selectedbgcolor="88 82 242 255"
+		accent_listpanel_selectedbgcolor="88 82 242 150"
+////////////////////////////
+//======Base Colors======//
+
+		defaultblue="19 94 242 255"
+		orange="242 113 19 255"
+		vlad="88 82 242 255"
+		red="242 46 19 255"
+		green="100 200 71 255"
+		iluminati="245 233 77 255"
+		lightblue="25 159 255 255"
+		pierrexiv="255 20 147 255"
+		
+////////////////////////////		
+			
+    }
+    
+}

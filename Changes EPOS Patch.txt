@@ -1,0 +1,66 @@
+
+~~~~Changes EPOS Patch~~~~
+	   0.5.3.3
+
+-------------------------------------------------------------------------------------
+-changed default color to vlad color
+-readded and made client layout 'essentials alternative' from 0.5.3 default (-fixed inbox_unread icon not showing)
+-changed heart and menu button options (-removed patreon bloat -added removed features)
+-changed default heart icon to steam icon
+-changed the webkit.css to 0.5.1 and changed the color to the vlad color
+-changed account online bubble color to match the vlad color
+-changed steam small mode color to the vlad color
+-added icon options (default, patreon, steam)
+-------------------------------------------------------------------------------------
+
+~~~~File Locations~~~~
+
+[Heart/Steam icon]
+
+- \graphics\assets\accent\icons\topbar\heart.tga
+- \graphics\assets\accent\icons\topbar\Heart@2x.tga
+- \graphics\assets\accent\icons\topbar\early.tga
+- \graphics\assets\accent\icons\topbar\early@2x.tga
+
+[Heart and menu button options revamp using metro for steam's options]
+
+- \resource\menus\steam.menu
+
+[webkit to old 0.5.1 and color swap]
+
+- \resource\webkit.css
+
+[account online bubble color swap]
+
+- \graphics\assets\accountbutton\account_mask_online.tga
+- \graphics\assets\accountbutton\account_mask_online@2x.tga
+
+[small mode color change]
+
+- \custom.styles
+
+[inbox_unread icon not showing 'change alertunread into inbox_unread']
+
+- \resource\layout\steamrootdialog.layout
+
+~~~~Raw Patch Dev Logs~~~~
+
+main patch build:
+
+1. drop layout folder in skin folder
+2. drop raw patch folder in skin folder
+3. drop preferred icon folder in skin folder
+
+raw patch includes:
+
+-changed default color to vlad color
+-changed heart and menu button options (-removed patreon bloat -added removed features)
+-changed default heart icon to steam icon
+-changed the webkit.css to 0.5.1 and changed the color to the vlad color
+-changed account online bubble color to match the vlad color
+-changed steam small mode color to the vlad color
+
+raw patch doesn't include:
+
+-readded and made client layout 'essentials alternative' from 0.5.3 default (-fixed inbox_unread icon not showing)
+-added icon options (default, patreon, steam)
